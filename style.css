@@ -1,0 +1,195 @@
+/* since the body is set to relative the 
+position of other elements can be easily placed
+*/
+body {
+    margin:0;
+    padding: 0;
+    position: relative;
+    background-color: #000;
+}
+.topnavbar{
+    background-color:#424242;
+    overflow: hidden;
+    width: 100%;
+}
+.topnavbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnavbar a:hover {
+    background-color: 0,0,0,4;
+    color:black;
+}
+.topnavbar img {
+    float:left;
+    padding:5px 10px;
+    border-radius: 50%;
+}
+.search-bar {
+    float:left;
+    background: #424242;
+    color:#ddd;
+    border:2px solid whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+input[type="text"]::placeholder {
+    text-align: right;
+    color:#ddd;
+  }
+/*
+.application-content {
+    background-color: #474545;
+}*/
+.topnavbar__icons{
+    float: right;
+}
+
+.details {
+    position: sticky;
+    top: 130px;
+    text-align: center;
+}
+
+.details a {
+    text-decoration: none;
+    left: 28%;
+    margin-left: 40px;
+    color: white;
+    font-size:20px;
+}
+.details a:hover{
+    border-bottom: 3px solid white;
+}
+.sticky-elements {
+    position: sticky;
+}
+.profile img {
+    border-radius: 50%;
+    position:relative;
+    margin-left: 40px;
+    top: 90px;
+    width: 350px;
+    cursor: pointer;
+}
+.profile .username {
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 16px;
+    position:relative;
+    top: 70px;
+    margin-left: 40px;
+}
+.profile p{
+    font-size: 25px;
+    color:#ffffff
+}
+.profile p.dimmed {
+    color:rgb(110, 109, 108);
+}
+
+.readme-box{
+    color:#fff;
+    height:auto;
+    width: 800px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color:#000;
+    position: absolute;
+    top:170px;
+    left: 32%;
+}
+
+.edit{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 280px;
+    height: 30px;
+    border: 1px solid rgb(81, 80, 79);
+    margin-left: 0;
+    cursor: pointer;
+    text-align: center;
+    color:#ddd;
+    background: #424040;
+    
+}
+.recommendation p {
+    position: absolute;
+    top: 530px;
+    font-size: 22px;
+    left:32%;
+    color:#ddd;
+}
+.row-0{
+    background: #343434;
+    color:#fff;
+    font-family: sans-serif;
+    position: absolute;
+    border-radius: 15px;
+    border: 1px solid white;
+    top: 600px;
+    left:32%;
+    height: 402px;
+    width: 820px;
+}
+.row-0 td {
+    padding-left: 20px;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid white;
+    border-right: 1;
+}
+.row-0 button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-left: 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+td .python-colr {
+    display: inline-block;
+    height:10px;
+    width:10px;
+    margin-top: 70px;
+    margin-right: 20px;
+    background-color: #3572A5;
+    border-radius: 50%;
+}
+td .javascript-colr {
+    display: inline-block;
+    height:10px;
+    width:10px;
+    margin-top: 70px;
+    margin-right: 20px;
+    background-color: #f1e05a;
+    border-radius: 50%;
+}
+td .java-colr {
+    display: inline-block;
+    height:10px;
+    width:10px;
+    margin-right: 20px;
+    margin-top: 70px;
+    background-color: #f1a80a;
+    border-radius: 50%;
+}
+td .ruby-colr {
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-right: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #701516;
+}
